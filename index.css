@@ -1,0 +1,133 @@
+
+html body  {
+  width:  calc(100vw - 50px) ;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  margin-top: 25px;
+  width: 120px;
+  height: 48px;
+  
+
+}
+
+.input-result{
+  display: flex;
+  flex-direction: row;
+}
+.text-input{
+  margin-top: 50px;
+  width: 65%;
+  height: 60vh;
+  border: none;
+  outline: none;
+  font-size: 35px;
+}
+.text-input::placeholder, .text-input:focus{
+  border: none;
+  outline: none;
+  background: white; 
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.result-container{
+  width: 30%; 
+  height: 90vh;
+  margin-top: auto;
+  margin-bottom: auto; 
+  background: white; 
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.not-found-image{
+  width: 336px; 
+  height: 304px; 
+  position: relative
+}
+.not-found-text-lg{
+  width: 336px; 
+  text-align: center; 
+  color: #343A40; 
+  font-size: 24px; 
+  font-family: Inter; 
+  font-weight: 700; 
+  line-height: 28.80px; 
+  word-wrap: break-word
+}
+.not-found-text-sm{
+  width: 336px; 
+  text-align: center; 
+  color: #495057; 
+  font-size: 16px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 24px; 
+  word-wrap: break-word
+}
+
+.buttons-container{
+width: 65%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 25px;
+}
+.condition-container{
+  width: 65%;
+  display: flex;
+  }
+.encrypt{
+  width: 30%; 
+  height: 67px; 
+  padding: 20px; 
+  background: #0A3871; 
+  border-radius: 24px; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-right: 25px;
+  flex: 1 1 0; 
+  text-align: center; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.decrypt{
+  width: 328px; 
+  height: 67px; 
+  padding: 20px; 
+  background: #D8DFE8; 
+  border-radius: 24px; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-left: 25px;
+  flex: 1 1 0; 
+  text-align: center; 
+  color: #0A3871; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
